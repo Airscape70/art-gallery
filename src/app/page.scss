@@ -1,3 +1,32 @@
+@mixin header-bar {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+@mixin border {
+  border: 1px solid #ccc;
+}
+
+@mixin grid-image($url) {
+  background: url($url);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  transition: all 1s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+$topbar-height: 4rem;
+
 body {
   font-size: 16px;
   padding: 0;
@@ -6,50 +35,153 @@ body {
   * {
     box-sizing: border-box;
   }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
 }
 
-$topbar-height: 4rem;
+header {
+  .topbar {
+    @include header-bar;
+    height: $topbar-height;
+    justify-content: space-between;
+  }
 
-.topbar {
-  height: $topbar-height;
-  display: flex;
-  border-bottom: 1px solid #ccc;
-  align-items: center;
+  .botbar {
+    @include header-bar;
+    height: 6rem;
+    font-size: 24px;
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+
+      a {
+        padding: 0 4rem;
+      }
+    }
+  }
+
+  .category {
+    display: grid;
+    overflow: hidden;
+    height: 40rem;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-template-areas:
+      "item1 item2 item4 item5"
+      "item1 item3 item6 item6";
+
+    .grid-item-1 {
+      @include grid-image(
+        $url:
+          "https://images.unsplash.com/photo-1533450718592-29d45635f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item1;
+    }
+    .grid-item-2 {
+      @include grid-image(
+        $url:
+          "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item2;
+    }
+    .grid-item-3 {
+      @include grid-image(
+        $url:
+          "https://images.unsplash.com/photo-1630418886128-458aea8716d8?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item3;
+    }
+    .grid-item-4 {
+      @include grid-image(
+        $url:
+          "https://plus.unsplash.com/premium_photo-1673967770669-91b5c2f2d0ce?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1533450718592-29d45635f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item4;
+    }
+    .grid-item-5 {
+      @include grid-image(
+        $url:
+          "https://images.unsplash.com/photo-1551496168-239c45c2cfd0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item5;
+    }
+    .grid-item-6 {
+      @include grid-image(
+        $url:
+          "https://images.unsplash.com/photo-1598970829637-89b81d47ae27?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      );
+      grid-area: item6;
+      grid-column: span 2;
+    }
+  }
 }
 
 main {
-  height: calc(100vh - $topbar-height);
-  display: flex;
-  align-items: stretch;
+  .news {
+    @include border;
+    height: 20rem;
+    text-align: center;
+
+    .news-container {
+      @include flex-center;
+
+      .news-list {
+        @include flex-center;
+        gap: 20px;
+
+        .item {
+          @include border;
+          width: 200px;
+          height: 200px;
+
+        }
+      }
+    }
+  }
+
+  .main-container {
+    height: calc(100vh - $topbar-height);
+    display: flex;
+    align-items: stretch;
+  }
+
+  .sidebar {
+    width: 14rem;
+    flex-shrink: 0;
+    border-right: 1px solid #ccc;
+  }
+
+  .content-container {
+    overflow-y: auto;
+    padding: 0.5rem;
+    flex-grow: 1;
+  }
+
+  .content {
+    width: 80rem;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .tile {
+    width: 20%;
+    height: 16rem;
+    padding: 0.5rem;
+  }
+
+  .tile-body {
+    background: #ccc;
+    height: 100%;
+    width: 100%;
+  }
 }
 
-.sidebar {
-  width: 16rem;
-  flex-shrink: 0;
-  border-right: 1px solid #ccc;
-}
-
-.content-container {
-  flex-grow: 1;
-  overflow-y: auto;
-  padding: 0.5rem;
-}
-
-.content {
-  width: 80rem;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.tile {
-  width: 20%;
+footer {
+  @include border;
   height: 16rem;
-  padding: 0.5rem;
-}
-
-.tile-body {
-  background: #ccc;
-  height: 100%;
-  width: 100%;
 }
