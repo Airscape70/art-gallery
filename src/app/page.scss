@@ -2,20 +2,47 @@
   display: flex;
   border-bottom: 1px solid #ccc;
   align-items: center;
+  justify-content: space-between;
 }
 @mixin border {
   border: 1px solid #ccc;
 }
 
-@mixin grid-image($url) {
-  background: url($url);
-  background-size: cover;
-  background-position: center;
-  display: block;
+@mixin category-block($item) {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  grid-area: $item;
   transition: all 1s;
 
   &:hover {
-    transform: scale(1.2);
+    cursor: pointer;
+    img {
+      transform: scale(1.2);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    display: block;
+  }
+  span {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
   }
 }
 
@@ -28,6 +55,7 @@
 $topbar-height: 4rem;
 
 body {
+  height: 100%;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -42,83 +70,121 @@ body {
 }
 
 header {
+  height: 100%;
   .topbar {
     @include header-bar;
-    height: $topbar-height;
-    justify-content: space-between;
-  }
+    height: 4rem;
+    background-color: #cb8161;
+    box-shadow: 0px 5px 5px rgb(182, 182, 182);
+    color: #fff;
+    padding: 0 1rem;
 
-  .botbar {
-    @include header-bar;
-    height: 6rem;
-    font-size: 24px;
-
-    .navbar {
-      display: flex;
-      justify-content: center;
+    .phone-number {
+      display: inline-flex;
       align-items: center;
-      flex-grow: 1;
+      font-size: 1rem;
 
-      a {
-        padding: 0 4rem;
+      span {
+        padding-left: 0.8rem;
+      }
+
+      .phone {
+        width: 2rem;
+        &-icon {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .info {
+      font-size: 1.2rem;
+    }
+
+    .social-links {
+      display: inline-flex;
+      width: 8rem;
+      align-items: center;
+      gap: 1rem;
+
+      .telegram,
+      .whatsapp,
+      .vkontakte {
+        width: 100%;
       }
     }
   }
-
+  .botbar {
+    @include header-bar;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    width: 100%;
+    height: 6rem;
+    font-size: 20px;
+    padding: 0 1rem;
+    height: 6rem;
+    z-index: 1;
+  
+    .navbar {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      a {
+        display: flex;
+        align-items: center;
+        padding: 0 4rem;
+        height: 100%;
+        transition: all 0.5s;
+  
+        &:hover {
+          box-shadow: 0px 0px 5px rgb(182, 182, 182);
+        }
+      }
+    }
+    .shop-icons {
+      display: inline-flex;
+      width: 4rem;
+      gap: 1rem;
+      .wishlist,
+      .basket {
+        width: 100%;
+      }
+    }
+  }
   .category {
     display: grid;
-    overflow: hidden;
     height: 40rem;
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
     grid-template-areas:
-      "item1 item2 item4 item5"
-      "item1 item3 item6 item6";
-
-    .grid-item-1 {
-      @include grid-image(
-        $url:
-          "https://images.unsplash.com/photo-1533450718592-29d45635f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item1;
+    "item1 item2 item4 item5"
+    "item1 item3 item6 item6";
+    
+    .category-1 {
+      @include category-block(item1);
+      grid-row: span 2;
     }
-    .grid-item-2 {
-      @include grid-image(
-        $url:
-          "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item2;
+    &-2 {
+      @include category-block(item2);
     }
-    .grid-item-3 {
-      @include grid-image(
-        $url:
-          "https://images.unsplash.com/photo-1630418886128-458aea8716d8?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item3;
+    &-3 {
+      @include category-block(item3);
     }
-    .grid-item-4 {
-      @include grid-image(
-        $url:
-          "https://plus.unsplash.com/premium_photo-1673967770669-91b5c2f2d0ce?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1533450718592-29d45635f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item4;
+    &-4 {
+      @include category-block(item4);
     }
-    .grid-item-5 {
-      @include grid-image(
-        $url:
-          "https://images.unsplash.com/photo-1551496168-239c45c2cfd0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item5;
+    &-5 {
+      @include category-block(item5);
     }
-    .grid-item-6 {
-      @include grid-image(
-        $url:
-          "https://images.unsplash.com/photo-1598970829637-89b81d47ae27?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      );
-      grid-area: item6;
+    &-6 {
+      @include category-block(item6);
       grid-column: span 2;
     }
   }
 }
+
 
 main {
   .news {
@@ -137,14 +203,13 @@ main {
           @include border;
           width: 200px;
           height: 200px;
-
         }
       }
     }
   }
 
   .main-container {
-    height: calc(100vh - $topbar-height);
+    height: 100vh;
     display: flex;
     align-items: stretch;
   }
@@ -156,7 +221,7 @@ main {
   }
 
   .content-container {
-    overflow-y: auto;
+    overflow-y: scroll;
     padding: 0.5rem;
     flex-grow: 1;
   }
