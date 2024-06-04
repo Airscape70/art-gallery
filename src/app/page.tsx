@@ -4,8 +4,9 @@ import Phone from "@/icons/Phone";
 import Tg from "@/icons/Tg";
 import Whatsapp from "@/icons/Whatsapp";
 import Vk from "@/icons/Vk";
-import Wishlist from "@/icons/wishlist";
-import Basket from "@/icons/Baasket";
+import Wishlist from "@/icons/Wishlist";
+import Basket from "@/icons/Basket";
+import Card from "@/app/Components/Card/Card";
 
 export default function Home() {
   return (
@@ -84,13 +85,11 @@ export default function Home() {
         <section className="news">
           <h2>Новые картины</h2>
           <div className="news-container">
-            <div className="news-list">
-              <div className="item">1</div>
-              <div className="item">2</div>
-              <div className="item">3</div>
-              <div className="item">4</div>
-              <div className="item">5</div>
-            </div>
+            {Array(8)
+              .fill(0)
+              .map((_, index) => (
+                <Card key={index} />
+              ))}
           </div>
         </section>
 
@@ -110,7 +109,7 @@ export default function Home() {
       </main>
 
       <footer>
-      <div></div>
+        <div></div>
       </footer>
     </>
   );
