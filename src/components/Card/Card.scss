@@ -1,10 +1,11 @@
 $primary-color: #cb8161;
 $dark-primary-color: #a86c53;
+$secondary-color: #2f415d;
 $white: rgba(255, 255, 255);
 $black: #000;
-$grey: #F9F6F5;
+$grey: #f3f3f2;
 
-.cardContent {
+.card-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,9 +68,9 @@ $grey: #F9F6F5;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 2rem;
-    inset: auto auto 30px 30px;
+    width: 7rem;
+    height: 3rem;
+    inset: auto auto 24px 30px;
     background-color: $primary-color;
     color: $white;
 
@@ -79,13 +80,13 @@ $grey: #F9F6F5;
   }
 
   &:hover h2 {
-    inset: auto auto 250px 30%;
+    inset: auto auto 250px 17%;
     transition: inset 0.3s ease-out;
   }
   &:hover h3 {
     inset: auto auto 35px 180px;
     transition: inset 0.3s ease-out;
-    
+
     &::before {
       content: "";
       position: absolute;
@@ -93,26 +94,11 @@ $grey: #F9F6F5;
       right: -70px;
       transform: translateY(-50%);
       display: block;
-      background: url(../../../icons/Wishlist.svg) no-repeat;
+      background: url(../../icons/Wishlist.svg) no-repeat;
       width: 100%;
       height: 100%;
     }
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: -90px;
-      transform: translateY(-50%);
-      display: block;
-      background: url(../../../icons/Basket.svg) no-repeat;
-      width: 90%;
-      height: 90%;
-    }
-
-
   }
-
-
 
   &:hover p,
   &:hover a {
@@ -124,10 +110,4 @@ $grey: #F9F6F5;
     transition: opacity 0.3s ease-in;
     opacity: 1;
   }
-}
-
-.button {
-  width: 5rem;
-  height: 2rem;
-  background-color: $white;
 }

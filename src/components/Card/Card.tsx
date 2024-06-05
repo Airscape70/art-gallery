@@ -1,13 +1,11 @@
-
 import Wishlist from "@/icons/Wishlist"
-import styles from "./card.module.scss"
+import  "./Card.scss"
 
 export default function Card() {
   return  (
-  <div className={styles.cardContent}>
-    <div className = {styles.card}>
+  <div className='card-content'>
+    <div className = 'card'>
       <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt=""/>
-      <div className={styles.cardContent}>
         <h2>
           Название
         </h2>
@@ -22,6 +20,5 @@ export default function Card() {
         </a>
       </div>
     </div>
-  </div>
   )
 }
