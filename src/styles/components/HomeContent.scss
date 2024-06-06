@@ -1,0 +1,104 @@
+@use "../app" as *;
+
+@mixin category-block($item) {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  grid-area: $item;
+  transition: all 1s;
+
+  &:hover {
+    cursor: pointer;
+    img {
+      transform: scale(1.2);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    display: block;
+  }
+  span {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+main {
+  .category {
+    display: grid;
+    height: 40rem;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-template-areas:
+      "item1 item2 item4 item5"
+      "item1 item3 item6 item6";
+
+    .category-1 {
+      @include category-block(item1);
+      grid-row: span 2;
+    }
+    &-2 {
+      @include category-block(item2);
+    }
+    &-3 {
+      @include category-block(item3);
+    }
+    &-4 {
+      @include category-block(item4);
+    }
+    &-5 {
+      @include category-block(item5);
+    }
+    &-6 {
+      @include category-block(item6);
+      grid-column: span 2;
+    }
+  }
+
+  .news {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 2rem 0 4rem;
+
+    h2 {
+      padding: 0;
+      font-size: 2.4rem;
+    }
+
+    .news-container {
+      @include flex-center;
+      flex-flow: row wrap;
+    }
+
+    .btn {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      padding: 2rem;
+      inset: auto auto 24px 30px;
+      background-color: $secondary-color;
+      color: $white;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
+}

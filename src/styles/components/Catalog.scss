@@ -1,0 +1,37 @@
+@use '../app' as *;
+
+
+ main {
+  width: 100%;
+  padding: 5rem 0;
+ }
+
+.catalog-container{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+
+ .art-filters {
+  margin-left: 2rem;
+  width: 20rem;
+  height: 40rem;
+  border: 1px solid $black;
+ }
+
+.all-pics {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    margin-left: 10rem;
+  }
+}
+ .pic {
+  display: block;
+  padding: 1rem;
+  width: 300px;
+  height: 300px;
+  border: 1px solid $black
+}
