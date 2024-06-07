@@ -1,4 +1,4 @@
-import "@/styles/components/header.scss";
+import "@/styles/components/Header.scss";
 import Phone from "@/icons/phone";
 import Tg from "@/icons/Tg";
 import Whatsapp from "@/icons/Whatsapp";
@@ -37,10 +37,11 @@ export default function Header() {
           <div className="logo">Art Gallery</div>
 
           <div className="navbar">
-            <Link href="/Catalog">Каталог</Link>
-            <a href="#">На заказ</a>
-            <a href="#">Контакты</a>
+            <Link href="/">Главная</Link>
+            <Link href="/Catalog">Каталог картин</Link>
+            <a href="#">Картины на заказ</a>
             <a href="#">О нас</a>
+            <a href="#">Контакты</a>
           </div>
 
           <div className="shop-icons">

@@ -1,5 +1,6 @@
 import "@/styles/components/HomeContent.scss";
 import Card from "@/components/common/Card/Card";
+import Link from "next/link";
 export default function HomeContent() {
   return (
     <>
@@ -45,7 +46,7 @@ export default function HomeContent() {
                 <Card key={index} />
               ))}
           </div>
-          <a href="#" className="btn">Смотреть все</a>
+          <Link href="/Catalog" className="btn">Смотреть все</Link>
         </section>
       </main>
     </>

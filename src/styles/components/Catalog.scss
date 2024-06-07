@@ -1,37 +1,58 @@
-@use '../app' as *;
+@use "../app" as *;
 
-
- main {
+main {
   width: 100%;
-  padding: 5rem 0;
- }
+}
 
-.catalog-container{
+.catalog-container {
   display: flex;
   align-items: start;
   justify-content: center;
+  margin: 4rem 0;
 }
 
-
- .art-filters {
+.art-filters {
+  display: flex;
+  flex-direction: column;
   margin-left: 2rem;
   width: 20rem;
-  height: 40rem;
+  height: 45rem;
   border: 1px solid $black;
- }
+}
+
+.filter {
+  padding: 1rem;
+}
+
+.filter-text {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.filter-options {
+  padding-top: 0.5rem;
+  li {
+    padding: 0.1rem;
+  }
+  .custom-checkbox {
+    @include checkbox;
+  }
+}
 
 .all-pics {
   .container {
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     gap: 1rem;
-    margin-left: 10rem;
   }
 }
- .pic {
+.pic {
   display: block;
   padding: 1rem;
   width: 300px;
   height: 300px;
-  border: 1px solid $black
+  border: 1px solid $black;
 }
