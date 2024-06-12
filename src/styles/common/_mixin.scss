@@ -9,7 +9,6 @@
   z-index: -1;
   opacity: 0;
 
-
   & + label {
     display: inline-flex;
     align-items: center;
@@ -51,4 +50,17 @@
   &:disabled + label::before {
     background-color: #e9ecef;
   }
+}
+
+@mixin great-vibes {
+  font-family: "Great Vibes", cursive;
+}
+
+@mixin pattaya {
+  font-family: "Pattaya", sans-serif;
+}
+
+@mixin edu {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
 }

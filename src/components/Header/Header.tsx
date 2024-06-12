@@ -38,10 +38,8 @@ export default function Header() {
 
           <div className="navbar">
             <Link href="/">Главная</Link>
-            <Link href="/Catalog">Каталог картин</Link>
-            <a href="#">Картины на заказ</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
+            <Link href="/catalog">Каталог картин</Link>
+            <Link href="/order">Картины на заказ</Link>
           </div>
 
           <div className="shop-icons">

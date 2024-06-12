@@ -1,0 +1,43 @@
+@use "../app" as *;
+
+.order-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 67.5vh;
+}
+
+.form-header {
+  margin-bottom: 2rem;
+  h2 {
+    @include great-vibes;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  p {
+    @include edu;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-flow: row wrap;
+  width: 55rem;
+  height: 20rem;
+}
+
+.form-control {
+  @include edu;
+  min-width: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 50%;
+}

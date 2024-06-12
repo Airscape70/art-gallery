@@ -38,7 +38,7 @@ export default function HomeContent() {
         </section>
 
         <section className="news">
-          <h2>Новые картины</h2>
+          <h1 className="news-title">Новые картины</h1>
           <div className="news-container">
             {Array(8)
               .fill(0)
@@ -46,7 +46,7 @@ export default function HomeContent() {
                 <Card key={index} />
               ))}
           </div>
-          <Link href="/Catalog" className="btn">Смотреть все</Link>
+          <Link href="/catalog" className="btn">Смотреть все</Link>
         </section>
       </main>
     </>
