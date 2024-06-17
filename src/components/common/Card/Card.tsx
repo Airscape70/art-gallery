@@ -6,7 +6,7 @@ export default function Card() {
       <div className="card">
         <img
           src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-          alt=""
+          alt="1"
         />
         <h2>Название</h2>
         <h3>5000 ₽</h3>

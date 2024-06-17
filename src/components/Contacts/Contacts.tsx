@@ -1,12 +1,11 @@
-import "@/styles/components/Order.scss";
+import "@/styles/components/Contacts.scss";
 import { Field, Form, Formik } from "formik";
 
-export default function Order() {
+export default function Contacts() {
   return (
     <>
       <main>
         <section className="order-container">
-
           <div className="form-header">
             <h2>Напишите нам!</h2>
             <p>
@@ -18,7 +17,6 @@ export default function Order() {
             initialValues={{ name: "", phone: "", email: "", comment: "" }}
             onSubmit={() => {}}
           >
-
             {() => (
               <Form>
                 <div className="form-container">
@@ -59,7 +57,7 @@ export default function Order() {
                     <div>
                       <Field
                         type="textarea"
-                        name="comment"
+                        name="topic"
                         className="form-control"
                         placeholder="Тема"
                       />
@@ -70,14 +68,18 @@ export default function Order() {
                     <div>
                       <Field
                         as="textarea"
+                        rows="10"
+                        cols="94"
                         type="textarea"
                         name="comment"
-                        className="form-control"
+                        className="form-control area"
                         placeholder="Сообщение"
                       />
                     </div>
                   </div>
                 </div>
+                
+                <span className="submit-btn">Отправить</span>
               </Form>
             )}
           </Formik>

@@ -102,19 +102,7 @@ main {
 
   .btn {
     @include edu;
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: inline-flex;
-    align-items: center;
+    @include button;
     padding: 2rem;
-    inset: auto auto 24px 30px;
-    background-color: $secondary-color;
-    color: $white;
-    transition: all 0.5s;
-
-
-    &:hover {
-      background-color: $primary-color;
-    }
-  }
+}
 }
