@@ -47,8 +47,10 @@
   margin-top: 2rem;
 }
 
-.buy-btn, .wish-btn {
+.buy-btn, 
+.wish-btn {
   @include button;
+  @include edu;
   padding: 1rem;
   width: 45%;
   text-align: center;
