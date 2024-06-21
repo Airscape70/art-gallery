@@ -1,0 +1,57 @@
+@use "../app" as *;
+
+.product-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1400px;
+  height: 100vh;
+  margin: 4rem auto;
+}
+
+.pic-container {
+  width: 1000px;
+  height: 800px;
+  border: 1px solid $black;
+  margin-right: 2rem;
+}
+
+.desc-container {
+}
+
+.pic-name {
+  @include edu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.desc-list {
+  margin-bottom: 2rem;
+  li {
+    padding: 0.5rem 0;
+    font-weight: bold;
+  }
+}
+
+.desc-text {
+  @include edu;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.buy-btn, 
+.wish-btn {
+  @include button;
+  @include edu;
+  padding: 1rem;
+  width: 45%;
+  text-align: center;
+}

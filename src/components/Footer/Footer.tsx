@@ -1,4 +1,5 @@
 import "@/styles/components/Footer.scss";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -10,16 +11,13 @@ export default function Footer() {
           <ul className="info-list">
             <p>Информация</p>
             <li className="info-item">
-              <a href="#">Картины</a>
+              <Link href="/">Главная</Link>
             </li>
             <li className="info-item">
-              <a href="#">На заказ</a>
+              <Link href="/catalog">Каталог</Link>
             </li>
             <li className="info-item">
-              <a href="#">Контакты</a>
-            </li>
-            <li className="info-item">
-              <a href="#">О нас</a>
+              <Link href="/contacts">Контакты</Link>
             </li>
           </ul>
         </div>
