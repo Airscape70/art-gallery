@@ -1,11 +1,9 @@
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-
-
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Titillium_Web } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const titilium = Titillium_Web({weight: ['300', '400', '600', '700'], subsets: ['latin']});
 
 export const metadata: Metadata = {
   title: "ArtGallery",
@@ -19,11 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header/>
+      <body className={titilium.className}>
+        <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }

@@ -1,21 +1,13 @@
 import "@/styles/components/Card.scss";
 
-export default function Card() {
+export default function Card( {data} ) {
   return (
     <div className="card-content">
       <div className="card">
-        <img
-          src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-          alt="1"
-        />
-        <h2>Название</h2>
-        <h3>5000 ₽</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          exercitationem iste, voluptatum, quia explicabo laboriosam rem
-          adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
-          asperiores harum? Dicta odio aut hic.
-        </p>
+        <img src={data.url} alt={data.title} />
+        <h2>{data.title}</h2>
+        <h3>{data.price} ₽</h3>
+        <p>{data.description}</p>
         <a href="#">Купить</a>
       </div>
     </div>

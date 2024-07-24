@@ -14,7 +14,7 @@
   h2 {
     @include great-vibes;
     font-size: 4rem;
-    text-align: center
+    text-align: center;
   }
 
   p {
@@ -30,7 +30,6 @@
   justify-content: start;
   flex-flow: row wrap;
   width: 55rem;
-
 }
 
 .form-control {
@@ -47,7 +46,6 @@
 
 .submit-btn {
   @include button;
-  @include edu;
   padding: 1rem;
   margin: 1rem;
 }
