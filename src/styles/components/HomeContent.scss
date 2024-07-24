@@ -22,7 +22,6 @@
     display: block;
   }
   span {
-    @include edu;
     position: absolute;
     bottom: 2rem;
     left: 2rem;
@@ -101,8 +100,8 @@ main {
   }
 
   .btn {
-    @include edu;
     @include button;
-    padding: 2rem;
+    padding: 1.4rem;
+    border-radius: 2rem;
 }
 }

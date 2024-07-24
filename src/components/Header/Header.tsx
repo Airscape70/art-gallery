@@ -8,7 +8,6 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <>
       <header>
         <div className="topbar">
           <a className="phone-number" href="#">
@@ -49,6 +48,5 @@ export default function Header() {
           </div>
         </nav>
       </header>
-    </>
-  );
+  )
 }
