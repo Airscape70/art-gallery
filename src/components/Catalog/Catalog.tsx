@@ -1,11 +1,126 @@
+"use client";
 import "@/styles/components/Catalog.scss";
+import MiniCard from "../common/Card/MiniCard";
+import { useState } from "react";
 
-export default function Catalog() {
+export default function Catalog({ data }) {
+  // function () {
+  //   var techniqueCbs = document.querySelectorAll(".technique input[type='checkbox']");
+  //   var genreCbs = document.querySelectorAll(".genre input[type='checkbox']");
+  //   var categoryCbs = document.querySelectorAll(".category input[type='checkbox']");
+  //   var sizeCbs = document.querySelectorAll(".size input[type='checkbox']");
+  //   var priceCbs = document.querySelectorAll(".price input[type='checkbox']");
+
+  //   var filters = {
+  //     technique: getClassOfCheckedCheckboxes(techniqueCbs),
+  //     genre: getClassOfCheckedCheckboxes(genreCbs),
+  //     category: getClassOfCheckedCheckboxes(categoryCbs),
+  //     size: getClassOfCheckedCheckboxes(sizeCbs),
+  //     price: getClassOfCheckedCheckboxes(priceCbs),
+  //   };
+
+  //   filterResults(filters);
+  // }
+
+  // function getClassOfCheckedCheckboxes(checkboxes) {
+  //   var classes = [];
+
+  //   if (checkboxes && checkboxes.length > 0) {
+  //     for (var i = 0; i < checkboxes.length; i++) {
+  //       var cb = checkboxes[i];
+
+  //       if (cb.checked) {
+  //         classes.push(cb.getAttribute("rel"));
+  //       }
+  //     }
+  //   }
+
+  //   return classes;
+  // }
+
+  // function filterResults(filters) {
+  //   var rElems = Array.from(document.getElementsByClassName(".result div")  as HTMLCollectionOf<HTMLElement>);
+  //   var hiddenElems = [];
+
+  //   if (!rElems || rElems.length <= 0) {
+  //     return;
+  //   }
+
+  //   for (var i = 0; i < rElems.length; i++) {
+  //     var el = rElems[i];
+
+  //     if (filters.technique.length > 0) {
+  //       var isHidden = true;
+
+  //       for (var j = 0; j < filters.technique.length; j++) {
+  //         var filter = filters.technique[j];
+
+  //         if (el.classList.contains(filter)) {
+  //           isHidden = false;
+  //           break;
+  //         }
+  //       }
+
+  //       if (isHidden) {
+  //         hiddenElems.push(el);
+  //       }
+  //     }
+
+  //     if (filters.genre.length > 0) {
+  //       var isHidden = true;
+
+  //       for (var j = 0; j < filters.genre.length; j++) {
+  //         var filter = filters.genre[j];
+
+  //         if (el.classList.contains(filter)) {
+  //           isHidden = false;
+  //           break;
+  //         }
+  //       }
+
+  //       if (isHidden) {
+  //         hiddenElems.push(el);
+  //       }
+  //     }
+  //   }
+
+  //   for (var i = 0; i < rElems.length; i++) {
+  //     rElems[i].style.display = "block";
+  //   }
+
+  //   if (hiddenElems.length <= 0) {
+  //     return;
+  //   }
+
+  //   for (var i = 0; i < hiddenElems.length; i++) {
+  //     hiddenElems[i].style.display = "none";
+  //   }
+  // }
+
+  const [filterTags, setFilterTags] = useState([]);
+
+  const filteredDATA = data.filter((item) =>
+    filterTags.length > 0
+      ? filterTags.some((filterTag) =>
+          item.tags.map((tag) => tag.title).includes(filterTag)
+        )
+      : data
+  );
+
+  const filterHandler = (event) => {
+    if (event.target.checked) {
+      setFilterTags([...filterTags, event.target.value]);
+    } else {
+      setFilterTags(
+        filterTags.filter((filterTag) => filterTag !== event.target.value)
+      );
+    }
+  };
+
   return (
     <>
       <main>
         <section className="catalog-container">
-          
           <aside>
             <div className="art-filters">
               <div className="filter">
@@ -15,44 +130,48 @@ export default function Catalog() {
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="1"
-                      name="paper-pastel"
-                      value="1"
+                      id="paper-pastel"
+                      value="paper-pastel"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="1">Бумага, пастель</label>
+                    <label htmlFor="paper-pastel">Бумага, пастель</label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="2"
-                      name="paper-acrylic"
-                      value="1"
+                      id="paper-acrylic"
+                      value="paper-acrylic"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="2">Бумага, акрил</label>
+                    <label htmlFor="paper-acrylic">Бумага, акрил</label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="3"
-                      name="sandpaper-pastel"
-                      value="1"
+                      id="sandpaper-pastel"
+                      value="sandpaper-pastel"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="3">Нождачная бумага, пастель</label>
+                    <label htmlFor="sandpaper-pastel">
+                      Нождачная бумага, пастель
+                    </label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="4"
-                      name="paper-acrylic-aqua"
-                      value="1"
+                      id="paper-acrylic-aqua"
+                      value="paper-acrylic-aqua"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="4">Бумага, акрил, акварель</label>
+                    <label htmlFor="paper-acrylic-aqua">
+                      Бумага, акрил, акварель
+                    </label>
                   </li>
                 </ul>
               </div>
@@ -64,33 +183,22 @@ export default function Catalog() {
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="5"
-                      name="animals"
-                      value="1"
+                      id="animals"
+                      value="animals"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="5">Животные</label>
+                    <label htmlFor="animals">Животные</label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="6"
-                      name="nature"
-                      value="1"
+                      id="nature"
+                      value="nature"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="6">Природа</label>
-                  </li>
-
-                  <li>
-                    <input
-                      type="checkbox"
-                      className="custom-checkbox"
-                      id="7"
-                      name="building"
-                      value="1"
-                    />
-                    <label htmlFor="7">Архитектура</label>
+                    <label htmlFor="nature">Природа</label>
                   </li>
                 </ul>
               </div>
@@ -102,64 +210,64 @@ export default function Catalog() {
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="8"
-                      name="wild-animals"
-                      value="1"
+                      id="wild-animals"
+                      value="wild-animals"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="8">Дикие животные</label>
+                    <label htmlFor="wild-animals">Дикие животные</label>
                   </li>
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="9"
-                      name="wild-animals"
-                      value="1"
+                      id="home-animals"
+                      value="home-animals"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="9">Домашние животные</label>
-                  </li>
-
-                  <li>
-                    <input
-                      type="checkbox"
-                      className="custom-checkbox"
-                      id="10"
-                      name="forest"
-                      value="1"
-                    />
-                    <label htmlFor="10">Лесной пейзаж</label>
+                    <label htmlFor="home-animals">Домашние животные</label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="11"
-                      name="mountains"
-                      value="1"
+                      id="forest"
+                      value="forest"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="11">Горный пейзаж</label>
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      className="custom-checkbox"
-                      id="12"
-                      name="water"
-                      value="1"
-                    />
-                    <label htmlFor="12">Водный пейзаж</label>
+                    <label htmlFor="forest">Лесной пейзаж</label>
                   </li>
 
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="13"
-                      name="seasons"
-                      value="1"
+                      id="mountains"
+                      value="mountains"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="13">Времена года</label>
+                    <label htmlFor="mountains">Горный пейзаж</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      className="custom-checkbox"
+                      id="water"
+                      value="water"
+                      onChange={filterHandler}
+                    />
+                    <label htmlFor="water">Водный пейзаж</label>
+                  </li>
+
+                  <li>
+                    <input
+                      type="checkbox"
+                      className="custom-checkbox"
+                      id="seasons"
+                      value="seasons"
+                      onChange={filterHandler}
+                    />
+                    <label htmlFor="seasons">Времена года</label>
                   </li>
                 </ul>
               </div>
@@ -171,21 +279,21 @@ export default function Catalog() {
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="14"
-                      name="a4"
-                      value="1"
+                      id="A4"
+                      value="A4"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="14">А4</label>
+                    <label htmlFor="A4">А4</label>
                   </li>
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="15"
-                      name="a3"
-                      value="1"
+                      id="A3"
+                      value="A3"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="15">А3</label>
+                    <label htmlFor="A3">А3</label>
                   </li>
                 </ul>
               </div>
@@ -197,37 +305,32 @@ export default function Catalog() {
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="16"
-                      name="expensive"
-                      value="1"
+                      id="expensive"
+                      value="expensive"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="16">Сначала дорогие</label>
+                    <label htmlFor="expensive">Сначала дорогие</label>
                   </li>
                   <li>
                     <input
                       type="checkbox"
                       className="custom-checkbox"
-                      id="17"
-                      name="inexpensive"
-                      value="1"
+                      id="inexpensive"
+                      value="inexpensive"
+                      onChange={filterHandler}
                     />
-                    <label htmlFor="17">Сначала недорогие</label>
+                    <label htmlFor="inexpensive">Сначала недорогие</label>
                   </li>
                 </ul>
               </div>
             </div>
           </aside>
 
-          <div className="all-pics">
-            <div className="container">
-              {Array(50)
-                .fill(0)
-                .map((_, index) => (
-                  <div className="pic" key={index} />
-                ))}
-            </div>
+          <div className="pics-container">
+            {filteredDATA.map((item, index) => (
+                <MiniCard key={index} data={item} />
+            ))}
           </div>
-
         </section>
       </main>
     </>

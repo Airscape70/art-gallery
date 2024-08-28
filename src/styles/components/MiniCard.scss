@@ -1,0 +1,34 @@
+@use "../app" as *;
+
+.minicard {
+  margin: 0 1rem 1rem;
+  cursor: pointer;
+
+}
+
+.minicard-img {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-out;
+  }
+
+  &:hover img {
+    transition: opacity 0.3s ease-in;
+    opacity: 1;
+  }
+}
+
+
+
+.minicard-title {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}

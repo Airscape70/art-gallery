@@ -1,9 +1,16 @@
 import Catalog from '@/components/Catalog/Catalog';
+import { GET } from '../api/route';
 
-export default function CatalogPage() {
+
+
+export default async function CatalogPage() {
+
+  const dataImages = await GET().then((res) =>
+    res.json())
+
   return (
     <>
-      <Catalog />
+        <Catalog data={dataImages}/>
     </>
   );
 }

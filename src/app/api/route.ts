@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import images from '../../../data/images.json'
+import data from '../../../data/data.json'
 
-export async function GET(request: Request) {
-  return NextResponse.json(images);
+export async function GET() {
+  return NextResponse.json(data);
 }
