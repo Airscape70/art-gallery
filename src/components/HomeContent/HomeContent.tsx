@@ -1,28 +1,11 @@
-"use client";
-
 import "@/styles/components/HomeContent.scss";
 import Card from "@/components/common/Card/Card";
-import { Iimages } from "@/interface/Iimages";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
-async function getImages() {
-  const response = await fetch("http://localhost:3000/api");
-  if (!response.ok) throw new Error("Ошибка");
-  return response.json();
-}
-
-export default function HomeContent(): JSX.Element {
-  const [data, setData] = useState([]);
-
-  const fetchImages = async () => {
-    const images = await getImages();
-    setData(images);
-  };
-
-  useEffect(() => {
-    fetchImages();
-  }, []);
+export default async function HomeContent() {
+  const data = await fetch("http://localhost:3000/api////////").then((res) =>
+    res.json()
+  ); //?????????????????????????????????
 
   return (
     <main>
