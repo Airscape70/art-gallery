@@ -8,7 +8,7 @@ export default function MiniCard({ data }: {data: Iimages}) {
     <div className="minicard">
      <Link href={`/catalog/${data.slug}`} >
         <div className="minicard-img">
-          <img src={data.url} alt={data.title} />
+          <img src={data.urlSmall} alt={data.title} />
         </div>
         <div className="minicard-title">
           <h3>{data.title}</h3>

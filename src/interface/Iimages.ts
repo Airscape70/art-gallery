@@ -26,4 +26,5 @@ export interface Iimages {
     },
   ];
   url: string;
+  urlSmall: string;
 };

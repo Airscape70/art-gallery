@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/blob": "^0.23.4",
     "formik": "^2.4.6",
     "next": "14.2.3",
     "query-string": "^9.1.0",
