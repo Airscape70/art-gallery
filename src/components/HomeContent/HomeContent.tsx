@@ -1,11 +1,13 @@
 import "@/styles/components/HomeContent.scss";
 import Card from "@/components/common/Card/Card";
 import Link from "next/link";
+import { GET } from "@/app/api/route";
+import { Iimages } from "@/interface/Iimages";
 
 export default async function HomeContent() {
-  const data = await fetch("http://localhost:3000/api////////").then((res) =>
+  const data: Iimages[] = await GET().then((res) =>
     res.json()
-  ); //?????????????????????????????????
+  ); 
 
   return (
     <main>
@@ -44,7 +46,7 @@ export default async function HomeContent() {
       <section className="news">
         <h1 className="news-title">Новые картины</h1>
         <div className="news-container">
-          {data.map((item, index) => (
+          {data.slice(data.length - 8).map((item, index) => (
             <Card key={index} data={item} />
           ))}
         </div>

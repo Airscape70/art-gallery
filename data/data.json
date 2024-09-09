@@ -26,12 +26,12 @@
         "title": "1000"
       }
     ],
-    "url": "/images/3.jpg"
+    "url": "/images/4.JPG"
   },
 
   {
     "id": 2,
-    "slug": "Some-title-2",
+    "slug": "portret-2",
     "title": "Some title",
     "description": "Some description",
     "tags": [
@@ -56,12 +56,12 @@
         "title": "2000"
       }
     ],
-    "url": "/images/2.png"
+    "url": "/images/5.JPG"
   },
 
   {
     "id": 3,
-    "slug": "Some-title-3",
+    "slug": "portret-3",
     "title": "Some title",
     "description": "Some description",
     "tags": [
@@ -86,12 +86,12 @@
         "title": "1000"
       }
     ],
-    "url": "https://i.pinimg.com/236x/03/77/74/0377745d3e1e39a79937aa6a235fc5c6.jpg"
+    "url": "/images/6.JPG"
   },
 
   {
     "id": 4,
-    "slug": "Some-title-44645",
+    "slug": "portret-4",
     "title": "Some title",
     "description": "Some description",
     "tags": [
@@ -116,6 +116,2466 @@
         "title": "1000"
       }
     ],
-    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvcjAQGfWwITCmYj8tCIoknUk8vIVe9dgWkOUNtGErAVXcF5KtryAu1uNe6bC0aswifk&usqp=CAU"
+    "url": "/images/7.JPG"
+  },
+
+  {
+    "id": 5,
+    "slug": "portret-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/8.JPG"
+  },
+
+  {
+    "id": 6,
+    "slug": "portret-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/1.JPG"
+  },
+
+  {
+    "id": 7,
+    "slug": "portret-7",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/3.jpg"
+  },
+
+  {
+    "id": 8,
+    "slug": "portret-8",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/2.JPG"
+  },
+
+  {
+    "id": 9,
+    "slug": "river-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/9.JPG"
+  },
+
+  {
+    "id": 11,
+    "slug": "river-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/11.JPG"
+  },
+
+  {
+    "id": 12,
+    "slug": "river-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/12.JPG"
+  },
+
+  {
+    "id": 13,
+    "slug": "river-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/13.JPG"
+  },
+
+  {
+    "id": 14,
+    "slug": "river-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/14.JPG"
+  },
+
+  {
+    "id": 15,
+    "slug": "river-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/15.JPG"
+  },
+
+  {
+    "id": 16,
+    "slug": "river-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/16.JPG"
+  },
+
+  {
+    "id": 17,
+    "slug": "animal-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/17.JPG"
+  },
+
+  {
+    "id": 18,
+    "slug": "animal-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/18.JPG"
+  },
+
+  {
+    "id": 19,
+    "slug": "animal-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/19.JPG"
+  },
+
+  {
+    "id": 20,
+    "slug": "animal-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/20.JPG"
+  },
+
+  {
+    "id": 21,
+    "slug": "forest-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/21.JPG"
+  },
+
+  {
+    "id": 22,
+    "slug": "snow-river-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/22.JPG"
+  },
+
+  {
+    "id": 23,
+    "slug": "animal-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/23.JPG"
+  },
+
+  {
+    "id": 24,
+    "slug": "animal-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/24.JPG"
+  },
+
+  {
+    "id": 25,
+    "slug": "animal-7",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/25.JPG"
+  },
+
+  {
+    "id": 26,
+    "slug": "bird-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/26.JPG"
+  },
+
+  {
+    "id": 27,
+    "slug": "bird-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/27.JPG"
+  },
+
+  {
+    "id": 28,
+    "slug": "bird-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/28.JPG"
+  },
+
+  {
+    "id": 29,
+    "slug": "animal-8",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/29.JPG"
+  },
+
+  {
+    "id": 30,
+    "slug": "horse-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/30.JPG"
+  },
+
+  {
+    "id": 31,
+    "slug": "horse-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/31.JPG"
+  },
+
+  {
+    "id": 32,
+    "slug": "horse-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/32.JPG"
+  },
+
+  {
+    "id": 33,
+    "slug": "animal-9",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/33.JPG"
+  },
+
+  {
+    "id": 34,
+    "slug": "lake-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/34.JPG"
+  },
+
+  {
+    "id": 35,
+    "slug": "mountain-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/35.JPG"
+  },
+
+  {
+    "id": 36,
+    "slug": "mountain-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/36.JPG"
+  },
+
+  {
+    "id": 37,
+    "slug": "church-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/37.JPG"
+  },
+  
+  {
+    "id": 38,
+    "slug": "snow-forest-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/38.JPG"
+  },
+
+  {
+    "id": 39,
+    "slug": "snow-forest-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/39.JPG"
+  },
+
+  {
+    "id": 40,
+    "slug": "snow-forest-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/40.JPG"
+  },
+
+  {
+    "id": 41,
+    "slug": "forest-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/41.JPG"
+  },
+
+  {
+    "id": 42,
+    "slug": "snow-forest-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/42.JPG"
+  },
+
+  {
+    "id": 43,
+    "slug": "snow-house-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/43.JPG"
+  },
+
+  {
+    "id": 44,
+    "slug": "forest-house-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/44.JPG"
+  },
+
+  {
+    "id": 45,
+    "slug": "sea-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/45.JPG"
+  },
+
+  {
+    "id": 46,
+    "slug": "sea-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/46.JPG"
+  },
+
+  {
+    "id": 47,
+    "slug": "sea-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/47.JPG"
+  },
+
+  {
+    "id": 48,
+    "slug": "snow-house-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/48.JPG"
+  },
+
+  {
+    "id": 49,
+    "slug": "sea-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/49.JPG"
+  },
+
+  {
+    "id": 51,
+    "slug": "story-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/51.JPG"
+  },
+
+  {
+    "id": 52,
+    "slug": "northern-lights-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/52.JPG"
+  },
+
+  {
+    "id": 53,
+    "slug": "story-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/53.JPG"
+  },
+
+  {
+    "id": 54,
+    "slug": "snow-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/54.JPG"
+  },
+
+  {
+    "id": 55,
+    "slug": "snow-2",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/55.JPG"
+  },
+
+  {
+    "id": 56,
+    "slug": "snow-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/56.JPG"
+  },
+
+  {
+    "id": 57,
+    "slug": "river-7",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/57.JPG"
+  },
+
+  {
+    "id": 58,
+    "slug": "river-8",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/58.JPG"
+  },
+
+  {
+    "id": 59,
+    "slug": "animal-10",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/59.JPG"
+  },
+
+  {
+    "id": 60,
+    "slug": "story-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/60.JPG"
+  },
+
+  {
+    "id": 61,
+    "slug": "river-9",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/61.JPG"
+  },
+
+  {
+    "id": 62,
+    "slug": "river-10",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/62.JPG"
+  },
+
+  {
+    "id": 63,
+    "slug": "mountain-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/63.JPG"
+  },
+
+  {
+    "id": 64,
+    "slug": "snow-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/64.JPG"
+  },
+
+  {
+    "id": 65,
+    "slug": "snow-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/65.JPG"
+  },
+
+  {
+    "id": 66,
+    "slug": "snow-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/66.JPG"
+  },
+
+  {
+    "id": 67,
+    "slug": "snow-7",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/67.JPG"
+  },
+
+  {
+    "id": 68,
+    "slug": "animal-11",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/68.JPG"
+  },
+
+  {
+    "id": 69,
+    "slug": "sea-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/69.JPG"
+  },
+
+  {
+    "id": 70,
+    "slug": "sea-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/70.JPG"
+  },
+
+  {
+    "id": 71,
+    "slug": "snow-house-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/71.JPG"
+  },
+
+  {
+    "id": 72,
+    "slug": "horse-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/72.JPG"
+  },
+
+  {
+    "id": 73,
+    "slug": "horse-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/73.JPG"
+  },
+
+  {
+    "id": 74,
+    "slug": "forest-3",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/74.JPG"
+  },
+
+  {
+    "id": 75,
+    "slug": "forest-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/75.JPG"
+  },
+
+  {
+    "id": 76,
+    "slug": "forest-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/76.JPG"
+  },
+
+  {
+    "id": 77,
+    "slug": "forest-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/77.JPG"
+  },
+
+  {
+    "id": 78,
+    "slug": "forest-7",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/78.JPG"
+  },
+
+  {
+    "id": 79,
+    "slug": "forest-8",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/79.JPG"
+  },
+
+  {
+    "id": 80,
+    "slug": "snow-forest-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/80.JPG"
+  },
+
+  {
+    "id": 81,
+    "slug": "forest-9",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/81.JPG"
+  },
+
+  {
+    "id": 82,
+    "slug": "forest-10",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/82.JPG"
+  },
+
+  {
+    "id": 83,
+    "slug": "snow-forest-6",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/83.JPG"
+  },
+
+  {
+    "id": 84,
+    "slug": "story-4",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/84.JPG"
+  },
+
+  {
+    "id": 85,
+    "slug": "story-5",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/85.JPG"
+  },
+
+  {
+    "id": 86,
+    "slug": "river-11",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/86.JPG"
+  },
+
+  {
+    "id": 87,
+    "slug": "river-12",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/87.JPG"
+  },
+
+  {
+    "id": 88,
+    "slug": "flower-1",
+    "title": "Some title",
+    "description": "Some description",
+    "tags": [
+      {
+        "id": "technique",
+        "title": "paper-acrylic"
+      },
+      {
+        "id": "genre",
+        "title": "nature"
+      },
+      {
+        "id": "format",
+        "title": "A4"
+      },
+      {
+        "id": "year",
+        "title": "2021"
+      },
+      {
+        "id": "price",
+        "title": "1000"
+      }
+    ],
+    "url": "/images/88.JPG"
   }
 ]

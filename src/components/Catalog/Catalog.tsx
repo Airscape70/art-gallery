@@ -2,100 +2,10 @@
 import "@/styles/components/Catalog.scss";
 import MiniCard from "../common/Card/MiniCard";
 import { useState } from "react";
+import { Iimages } from "@/interface/Iimages";
 
-export default function Catalog({ data }) {
-  // function () {
-  //   var techniqueCbs = document.querySelectorAll(".technique input[type='checkbox']");
-  //   var genreCbs = document.querySelectorAll(".genre input[type='checkbox']");
-  //   var categoryCbs = document.querySelectorAll(".category input[type='checkbox']");
-  //   var sizeCbs = document.querySelectorAll(".size input[type='checkbox']");
-  //   var priceCbs = document.querySelectorAll(".price input[type='checkbox']");
+export default function Catalog({ data }: {data: Iimages []}) {
 
-  //   var filters = {
-  //     technique: getClassOfCheckedCheckboxes(techniqueCbs),
-  //     genre: getClassOfCheckedCheckboxes(genreCbs),
-  //     category: getClassOfCheckedCheckboxes(categoryCbs),
-  //     size: getClassOfCheckedCheckboxes(sizeCbs),
-  //     price: getClassOfCheckedCheckboxes(priceCbs),
-  //   };
-
-  //   filterResults(filters);
-  // }
-
-  // function getClassOfCheckedCheckboxes(checkboxes) {
-  //   var classes = [];
-
-  //   if (checkboxes && checkboxes.length > 0) {
-  //     for (var i = 0; i < checkboxes.length; i++) {
-  //       var cb = checkboxes[i];
-
-  //       if (cb.checked) {
-  //         classes.push(cb.getAttribute("rel"));
-  //       }
-  //     }
-  //   }
-
-  //   return classes;
-  // }
-
-  // function filterResults(filters) {
-  //   var rElems = Array.from(document.getElementsByClassName(".result div")  as HTMLCollectionOf<HTMLElement>);
-  //   var hiddenElems = [];
-
-  //   if (!rElems || rElems.length <= 0) {
-  //     return;
-  //   }
-
-  //   for (var i = 0; i < rElems.length; i++) {
-  //     var el = rElems[i];
-
-  //     if (filters.technique.length > 0) {
-  //       var isHidden = true;
-
-  //       for (var j = 0; j < filters.technique.length; j++) {
-  //         var filter = filters.technique[j];
-
-  //         if (el.classList.contains(filter)) {
-  //           isHidden = false;
-  //           break;
-  //         }
-  //       }
-
-  //       if (isHidden) {
-  //         hiddenElems.push(el);
-  //       }
-  //     }
-
-  //     if (filters.genre.length > 0) {
-  //       var isHidden = true;
-
-  //       for (var j = 0; j < filters.genre.length; j++) {
-  //         var filter = filters.genre[j];
-
-  //         if (el.classList.contains(filter)) {
-  //           isHidden = false;
-  //           break;
-  //         }
-  //       }
-
-  //       if (isHidden) {
-  //         hiddenElems.push(el);
-  //       }
-  //     }
-  //   }
-
-  //   for (var i = 0; i < rElems.length; i++) {
-  //     rElems[i].style.display = "block";
-  //   }
-
-  //   if (hiddenElems.length <= 0) {
-  //     return;
-  //   }
-
-  //   for (var i = 0; i < hiddenElems.length; i++) {
-  //     hiddenElems[i].style.display = "none";
-  //   }
-  // }
 
   const [filterTags, setFilterTags] = useState([]);
 
@@ -105,7 +15,7 @@ export default function Catalog({ data }) {
           item.tags.map((tag) => tag.title).includes(filterTag)
         )
       : data
-  );
+  ); // !!!!!!!!!!!!!!!!! Query string, api logic
 
   const filterHandler = (event) => {
     if (event.target.checked) {

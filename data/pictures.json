@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "slug": "portret-1",
+    "title": "Портрет №1",
+    "description": "Some description",
+    "technique": "paper-pastel",
+    "category": "portret",
+    "format": "A4",
+    "year": "2021",
+    "price": "1000",
+    "url": "/images/1.JPG"
+  },
+  {
+    "id": 2,
+    "slug": "portret-2",
+    "title": "Портрет №2",
+    "description": "Some description",
+    "technique": "paper-acrylic",
+    "category": "forest",
+    "format": "A3",
+    "year": "2022",
+    "price": "2000",
+    "url": "/images/2.JPG"
+  },
+  {
+    "id": 3,
+    "slug": "portret-3",
+    "title": "Портрет №3",
+    "description": "Some description",
+    "technique": "paper-aqua",
+    "category": "river",
+    "format": "A2",
+    "year": "2023",
+    "price": "3000",
+    "url": "/images/4.JPG"
+  },
+  {
+    "id": 4,
+    "slug": "portret-4",
+    "title": "Портрет №4",
+    "description": "Some description",
+    "technique": "paper-aqua",
+    "category": "mountain",
+    "format": "A1",
+    "year": "2024",
+    "price": "7000",
+    "url": "/images/4.JPG"
+  },
+  {
+    "id": 5,
+    "slug": "portret-5",
+    "title": "Портрет №5",
+    "description": "Some description",
+    "technique": "paper-acrylic",
+    "category": "sea",
+    "format": "A4",
+    "year": "2021",
+    "price": "2000",
+    "url": "/images/4.JPG"
+  }
+]
