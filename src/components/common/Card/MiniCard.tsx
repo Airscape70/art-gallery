@@ -1,7 +1,8 @@
+import { Iimages } from "@/interface/Iimages";
 import "@/styles/components/MiniCard.scss";
 import Link from "next/link";
 
-export default function MiniCard({ data }) {
+export default function MiniCard({ data }: {data: Iimages}) {
 
   return (
     <div className="minicard">

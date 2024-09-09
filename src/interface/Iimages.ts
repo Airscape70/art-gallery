@@ -1,12 +1,29 @@
-export interface Iimages{
+export interface Iimages {
   id: number;
+  slug: string;
   title: string;
   description: string;
-  technique: string[];
-  genre: string;
-  category: string;
-  format: string;
-  year: number;
-  price: number;
+  tags: [
+    {
+      id: string,
+      title: string
+    },
+    {
+      id: string,
+      title: string
+    },
+    {
+      id: string,
+      title: string
+    },
+    {
+      id: string,
+      title: string
+    },
+    {
+      id: string,
+      title: string
+    },
+  ];
   url: string;
 };
